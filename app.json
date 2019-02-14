@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index1/index1",
+    "pages/index1/index3",
+    "pages/index1/index2",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "hptest",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,9 @@
+<switch wx:for="{{objectArray}}" wx:key="unique" > {{item.id}} </switch>
+<button bindtap="switch"> Switch </button>
+<button bindtap="addToFront"> Add to the front </button>
+
+<!-- wx:key 表示以该属性作为主键 this.setData的时候就会记住控件状态 -->
+<!-- wx:key 当数组为单个简单对象时候可用*this -->
+
+<switch wx:for="{{numberArray}}" wx:key="*this" > {{item}} </switch>
+<button bindtap="addNumberToFront"> Add to the front </button>
