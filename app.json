@@ -1,15 +1,40 @@
 {
   "pages":[
-    "pages/logs/logs",
+    "pages/index/index",
     "pages/index1/index1",
     "pages/index1/index3",
     "pages/index1/index2",
-    "pages/index/index"
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#ddd",
     "navigationBarTitleText": "hptest",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#999999",
+    "selectedColor":"#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/shouye-off.png",
+        "selectedIconPath":"images/shouye-on.png"
+      },
+      {
+        "pagePath": "pages/index1/index3",
+        "text": "分类",
+        "iconPath": "images/fenlei-off.png",
+        "selectedIconPath": "images/fenlei-on.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/geren-off.png",
+        "selectedIconPath": "images/geren-on.png"
+      }
+    ]
   }
+  
 }
